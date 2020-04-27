@@ -1,0 +1,9 @@
+<!--pages/home/home.wxml-->
+<text class='title'>周震南</text>
+<button size='mini'>按钮</button>
+<button size='mini' open-type='getUserInfo'  bindgetuserInfo='onGetUserInfo'>授权</button>
+
+<open-data type="userNikeName"></open-data>
+<open-data type="userAvatarurl"></open-data>
+<open-data type="userGender"></open-data>
+
